@@ -1,0 +1,96 @@
+<section class="relative w-full min-h-screen flex items-center justify-center py-20">
+  <!-- FUNDO -->
+  <img
+    src="/fundo_sobre.svg"
+    class="absolute inset-0 w-full h-full object-cover opacity-10 blur-sm pointer-events-none"
+  />
+
+  <!-- GRID -->
+  <div class="relative w-full max-w-6xl mx-auto grid grid-cols-5 gap-20">
+
+    <!-- COLUNA ESQUERDA -->
+    <div class="flex flex-col gap-6 col-span-3 h-full items-center justify-center">
+
+      <div class="w-full text-center">
+        <h2 class="text-3xl font-bold text-black relative inline-block">
+          Sobre mim
+          <span class="absolute left-0 -bottom-2 w-full h-1 bg-[#d32f2f]"></span>
+        </h2>
+      </div>
+
+      <div class="relative">
+        <span class="text-gray-600 leading-relaxed opacity-[0] animate-[text-fade-in_0.01s_linear_forwards_930ms]">
+          Iniciei minha trajetória na programação aos 15 anos, por meio de um curso técnico na QI. Desde então, com a certeza de que tecnologia é minha vocação,
+          venho desenvolvendo e aprimorando minhas habilidades continuamente, sempre buscando evolução pessoal e profissional.
+        </span>
+        <span class="absolute inset-0 opacity-0 bg-[#d32f2f] animate-[text-reveal-dual_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_150ms]"></span>
+      </div>
+
+      <div class="relative">
+        <span class="text-gray-600 leading-relaxed opacity-[0] animate-[text-fade-in_0.01s_linear_forwards_930ms]">
+          Com mais de 2 anos de experiência atuando tanto no Front-end quanto no Back-end, atualmente faço parte da equipe de desenvolvimento da SimFrete,
+          onde trabalho no sistema de auditoria e gestão de fretes, contribuindo diretamente para soluções escaláveis e eficientes.
+        </span>
+        <span class="absolute inset-0 opacity-0 bg-[#d32f2f] animate-[text-reveal-dual_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_300ms]"></span>
+      </div>
+
+      <div class="relative">
+        <span class="text-gray-600 leading-relaxed opacity-[0] animate-[text-fade-in_0.01s_linear_forwards_930ms]">
+         Sou movido por desafios, aprendizado constante e pela construção de soluções que realmente geram impacto.
+         Acredito que um bom software vai além do código: ele resolve problemas, melhora processos e facilita a vida das pessoas.
+        </span>
+        <span class="absolute inset-0 opacity-0 bg-[#d32f2f] animate-[text-reveal-dual_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_450ms]"></span>
+      </div>
+
+      <div class="w-full flex justify-center">
+        <a
+          routerLink="/projects"
+          class="mt-4 w-fit text-[#d32f2f] font-medium flex items-center gap-2
+                 transition-all duration-200 hover:translate-x-2"
+        >
+          Ver projetos →
+        </a>
+      </div>
+    </div>
+
+    <!-- COLUNA DIREITA -->
+    <div class="flex flex-col gap-6 col-span-2 justify-center">
+
+      <div class="border border-gray-500 rounded-xl p-6 bg-white
+               transition-all duration-300
+               hover:shadow-lg hover:-translate-y-1 opacity-[0] animate-[cards-reveal_1.2s_forwards_1600ms]">
+        <h3 class="font-semibold text-lg mb-2">Frontend</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+          Interfaces responsivas, animações suaves e foco total na experiência do usuário. 
+          Consumo de APIs e sempre visando performance.
+        </p>
+      </div>
+
+      <div
+        class="border border-gray-500 rounded-xl p-6 bg-white
+               transition-all duration-300
+               hover:shadow-lg hover:-translate-y-1 opacity-[0] animate-[cards-reveal_1.2s_forwards_1750ms]"
+      >
+        <h3 class="font-semibold text-lg mb-2">Backend</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+          Criação de APIs bem estruturadas, com autenticação, regras de negócio e
+          integrações. Experiência com arquiteturas REST, WebSockets.
+        </p>
+      </div>
+
+      <div
+        class="border border-gray-500 rounded-xl p-6 bg-white
+               transition-all duration-300
+               hover:shadow-lg hover:-translate-y-1 opacity-[0] animate-[cards-reveal_1.2s_forwards_1900ms]"
+      >
+        <h3 class="font-semibold text-lg mb-2">Banco de Dados</h3>
+        <p class="text-gray-600 text-sm leading-relaxed">
+          Experiência utilizando PostgreSQL, MySQL e CockroachDB.
+          Boa experiência com SQL, estruturação de tabelas e otimização de consultas
+          para melhor desempenho.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>

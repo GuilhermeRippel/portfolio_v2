@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import 'tailwindcss';
+
+/* .reveal-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: #d32f2f;
+  transform: scaleX(0);
+  animation: text-reveal-dual 1.2s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+  z-index: 10;
+} */
+
+@keyframes tech-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-51%);
+  }
+}
+
+@keyframes text-reveal-dual {
+  0% {
+    opacity: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  45% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  55% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}
+
+@keyframes text-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes cards-reveal {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes line-reveal {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    opacity: 0;
+    transform: rotateY(0);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: rotateY(-360deg);
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes stretch-left-to-right {
+  0% {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}

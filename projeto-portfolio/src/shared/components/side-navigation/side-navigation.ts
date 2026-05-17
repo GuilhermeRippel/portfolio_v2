@@ -18,4 +18,12 @@ export class SideNavigation {
   faEnvelope = faEnvelope
   faLinkedin = faLinkedin;
   faGithub = faGithub;
+
+
+  openWhatsapp() {
+  window.open(
+    'https://wa.me/5993540101?text=Olá%20Guilherme!',
+    '_blank'
+  );
+}
 }

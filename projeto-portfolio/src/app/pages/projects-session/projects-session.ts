@@ -19,7 +19,7 @@ export class ProjectsSession {
       tecnologies: [`Angular20`, `TailwindCSS`],
       gitHubUrl: `https://github.com/GuilhermeRippel/hamburgueria_v2`,
       demoUrl: `https://hamburgueria-v2-green.vercel.app`,
-      imageUrl: `/projeto_hamburgueria_v2.png`,
+      imageUrl: `assets/projeto_hamburgueria_v2.png`,
     },
     {
       title: `Site Hamburgueria`,
@@ -27,7 +27,7 @@ export class ProjectsSession {
       tecnologies: [`React`, `TailwindCSS`],
       gitHubUrl: `https://github.com/GuilhermeRippel/deploy_site_hamburgueria`,
       demoUrl: `https://hamburguerianoponto.netlify.app`,
-      imageUrl: `/projeto_hamburgueria.png`,
+      imageUrl: `assets/projeto_hamburgueria.png`,
     },
   ];
 }

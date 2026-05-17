@@ -9,34 +9,25 @@ import { CommonModule } from '@angular/common';
   imports: [ProjectCard, CommonModule],
   templateUrl: './projects-session.html',
   styleUrl: './projects-session.css',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class ProjectsSession {
   projetcs: ProjectInterface[] = [
     {
-      title: `Site Hamburgueria`,
-      description: `Este projeto consiste em um frontend destinado à uma hamburgueria fictícia, 
-      basicamente conta com tecnologias como Swiper para carrosel de imagens, e hookes e bibliotecas do React para um design interativo e responsivo.`,
-      tecnologies: [`React`, `TailwindCSS`],
+      title: `Site Hamburgueria (Versão 2)`,
+      description: `Landing page moderna para uma hamburgueria fictícia, desenvolvida com Angular 20 e TailwindCSS. O projeto é uma releitura de uma versão antiga criada em React, agora com foco em componentização, animações suaves, responsividade e uma experiência visual mais refinada.`,
+      tecnologies: [`Angular20`, `TailwindCSS`],
+      gitHubUrl: `https://github.com/GuilhermeRippel/hamburgueria_v2`,
+      demoUrl: `https://hamburgueria-v2-green.vercel.app`,
+      imageUrl: `/projeto_hamburgueria_v2.png`,
     },
     {
       title: `Site Hamburgueria`,
-      description: `Este projeto consiste em um frontend destinado à uma hamburgueria fictícia, 
-      basicamente conta com tecnologias como Swiper para carrosel de imagens, e hookes e bibliotecas do React para um design interativo e responsivo.`,
+      description: `Aplicação frontend desenvolvida em React para uma hamburgueria fictícia, utilizando TailwindCSS para estilização. O projeto conta com navegação entre páginas, layout responsivo e uma interface focada em apresentar produtos de forma moderna e intuitiva.`,
       tecnologies: [`React`, `TailwindCSS`],
-    },
-    {
-      title: `Site Hamburgueria`,
-      description: `Este projeto consiste em um frontend destinado à uma hamburgueria fictícia, 
-      basicamente conta com tecnologias como Swiper para carrosel de imagens, e hookes e bibliotecas do React para um design interativo e responsivo.`,
-      tecnologies: [`React`, `TailwindCSS`],
-    },
-    {
-      title: `Site Hamburgueria`,
-      description: `Este projeto consiste em um frontend destinado à uma hamburgueria fictícia, 
-      basicamente conta com tecnologias como Swiper para carrosel de imagens, e hookes e bibliotecas do React para um design interativo e responsivo.`,
-      tecnologies: [`React`, `TailwindCSS`],
+      gitHubUrl: `https://github.com/GuilhermeRippel/deploy_site_hamburgueria`,
+      demoUrl: `https://hamburguerianoponto.netlify.app`,
+      imageUrl: `/projeto_hamburgueria.png`,
     },
   ];
 }

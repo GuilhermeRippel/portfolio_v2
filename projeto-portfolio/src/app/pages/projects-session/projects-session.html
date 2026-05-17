@@ -4,14 +4,15 @@
     <h2 class="text-4xl font-bold mb-2 text-black">Meus projetos</h2>
     <div class="h-1 w-1/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_900ms]"></div>
     <p class="text-gray-600">
-      Alguns projetos que desenvolvi usando frontend e backend
+      Alguns projetos que desenvolvi ao longo da minha carreira
     </p>
   </div>
 
   <div class="grid grid-cols-3 gap-6 w-full flex-1 min-h-0 overflow-y-auto p-6">
 
-    <div class="h-[550px] rounded-lg" *ngFor="let project of projetcs">
-      <project-card class="w-full h-full" [configurationProject]="project" />
+    <div class="h-[550px] rounded-lg"  *ngFor="let project of projetcs; let i = index" >
+      <project-card class="w-full opacity-0 h-full animate-[fade-up_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards]"
+    [style.animation-delay]="(i * 200 + 200) + 'ms'" [configurationProject]="project" />
     </div>
 
   </div>

@@ -15,4 +15,12 @@ export class ProjectCard {
   // @Input() title: string = ''
   // @Input() description: string = ''
   // @Input() tecnologies: string[] = []
+
+  naviateToGitHub(url: string){
+    window.open(url, '_blank')
+  }
+
+  navigateToDemo(url: string){
+    window.open(url, '_blank')
+  }
  }

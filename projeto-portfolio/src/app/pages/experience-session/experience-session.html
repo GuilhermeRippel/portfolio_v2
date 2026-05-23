@@ -1,4 +1,4 @@
-<section class="relative w-full h-screen px-6 py-10 flex flex-col overflow-auto">
+<section class="relative w-full min-h-screen px-6 py-10 flex flex-col overflow-auto">
   <img
     src="/fundo_experiencias.svg"
     class="absolute inset-0 w-full h-full object-cover opacity-10 blur-sm pointer-events-none"
@@ -7,145 +7,125 @@
   <!-- TITULO -->
   <div class="w-full">
     <div class="w-full flex flex-col gap-2">
-      <h1 class="font-bold text-3xl ">Minhas experiências</h1>
-      <div class="h-1 w-1/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_900ms]"></div>
+      <h1 class="font-bold text-3xl sm:text-4xl">Minhas experi&ecirc;ncias</h1>
+      <div class="h-1 w-28 sm:w-1/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_900ms]"></div>
     </div>
   </div>
 
   <!-- CARDS -->
-  <div class="w-full flex flex-1 justify-center items-center gap-10">
-      <!-- CARD 1 -->
-    <div class="w-1/4 h-2/4 flex flex-col gap-2">
+  <div class="w-full flex flex-col lg:flex-row flex-1 justify-center items-stretch lg:items-center gap-8 lg:gap-10 py-10">
+    <!-- CARD 1 -->
+    <div class="w-full lg:w-1/4 flex flex-col gap-2">
       <div class="w-full flex flex-col gap-1 pl-3">
-        <span class="font-bold text-2xl pl-3">2021 - 2023</span>
+        <span class="font-bold text-xl sm:text-2xl pl-3">2021 - 2023</span>
         <div class="h-1 w-2/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_1000ms]"></div>
       </div>
-      <div class="w-full h-full flex flex-col justify-between bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300 opacity-[0] animate-[rotate-vert-center_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_0ms]">
-        <h3 class="text-lg font-semibold text-gray-900 mb-2">Início na Programação</h3>
-         <p class="text-sm text-gray-600 mb-4">
-            Primeiro contato com desenvolvimento web, lógica de programação
-            e fundamentos de software.
-            Primeiro contato com desenvolvimento web, lógica
-            e fundamentos de software.
-            Primeiro contato com desenvolvimento web
+      <div class="w-full h-full min-h-80 flex flex-col justify-between bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300 opacity-[0] animate-[rotate-vert-center_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_0ms]">
+        <h3 class="text-lg font-semibold text-gray-900 mb-2">In&iacute;cio na Programa&ccedil;&atilde;o</h3>
+        <p class="text-sm text-gray-600 mb-4">
+          Primeiro contato com desenvolvimento web, l&oacute;gica de programa&ccedil;&atilde;o
+          e fundamentos de software.
+          Primeiro contato com desenvolvimento web, l&oacute;gica
+          e fundamentos de software.
+          Primeiro contato com desenvolvimento web
         </p>
 
-       <div class="w-full flex flex-wrap gap-3">
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+        <div class="w-full flex flex-wrap gap-3">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             HTML
-        </span>
+          </span>
 
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             CSS
-        </span>
+          </span>
 
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             JavaScript
-        </span>
+          </span>
         </div>
       </div>
     </div>
 
-    <div class="h-3/5 w-1 bg-[#d32f2f] rounded-lg"></div>
+    <div class="hidden lg:block h-3/5 w-1 bg-[#d32f2f] rounded-lg"></div>
 
     <!-- CARD 2 -->
-         <div class="w-1/4 h-2/4 flex flex-col gap-2">
+    <div class="w-full lg:w-1/4 flex flex-col gap-2">
       <div class="w-full flex flex-col gap-1 pl-3">
-        <span class="font-bold text-2xl pl-3">2024 - 2025</span>
+        <span class="font-bold text-xl sm:text-2xl pl-3">2024 - 2025</span>
         <div class="h-1 w-2/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_1150ms]"></div>
       </div>
-      <div class="w-full h-full flex flex-col justify-between bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300 opacity-[0] animate-[rotate-vert-center_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_150ms]">
+      <div class="w-full h-full min-h-80 flex flex-col justify-between bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300 opacity-[0] animate-[rotate-vert-center_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_150ms]">
         <h3 class="text-lg font-semibold text-gray-900 mb-2">Aprofundamento dos conhecimentos</h3>
-         <p class="text-sm text-gray-600 mb-4">
-            Fase de evolução técnica e prática, com maior contato com bibliotecas e frameworks de estilização, 
-            criação de APIs funcionais, integração com bancos de dados e desenvolvimento de projetos reais, 
-            aproximando o código de situações do mundo real.
+        <p class="text-sm text-gray-600 mb-4">
+          Fase de evolu&ccedil;&atilde;o t&eacute;cnica e pr&aacute;tica, com maior contato com bibliotecas e frameworks de estiliza&ccedil;&atilde;o,
+          cria&ccedil;&atilde;o de APIs funcionais, integra&ccedil;&atilde;o com bancos de dados e desenvolvimento de projetos reais,
+          aproximando o c&oacute;digo de situa&ccedil;&otilde;es do mundo real.
         </p>
 
-       <div class="w-full flex flex-wrap gap-3">
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+        <div class="w-full flex flex-wrap gap-3">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             React
-        </span>
+          </span>
 
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             Node
-        </span>
+          </span>
 
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             Tailwind
-        </span>
+          </span>
         </div>
       </div>
     </div>
 
-    <div class="h-3/5 w-1 bg-[#d32f2f] rounded-lg"></div>
+    <div class="hidden lg:block h-3/5 w-1 bg-[#d32f2f] rounded-lg"></div>
 
-     <!-- CARD 3 -->
-    <div class="w-1/4 h-2/4 flex flex-col gap-2 bg-white">
+    <!-- CARD 3 -->
+    <div class="w-full lg:w-1/4 flex flex-col gap-2 bg-white">
       <div class="w-full flex flex-col gap-1 pl-3">
-        <span class="font-bold text-2xl pl-3">2026...</span>
-        <div class="h-1 w-2/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_01250ms]"></div>
+        <span class="font-bold text-xl sm:text-2xl pl-3">2026...</span>
+        <div class="h-1 w-2/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_1250ms]"></div>
       </div>
-      <div class="w-full h-full flex flex-col justify-between bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300 opacity-[0] animate-[rotate-vert-center_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_300ms]">
+      <div class="w-full h-full min-h-80 flex flex-col justify-between bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition duration-300 opacity-[0] animate-[rotate-vert-center_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_300ms]">
         <h3 class="text-lg font-semibold text-gray-900 mb-2">Atualmente</h3>
-         <p class="text-sm text-gray-600 mb-4">
-            Atuação profissional na Simfrete, com foco em desenvolvimento front-end utilizando Angular. 
-            Vivência com Docker, Jenkins, amplo uso de bancos de dados e integração com back-end, incluindo suporte a automações e processos internos.
+        <p class="text-sm text-gray-600 mb-4">
+          Atua&ccedil;&atilde;o profissional na Simfrete, com foco em desenvolvimento front-end utilizando Angular.
+          Viv&ecirc;ncia com Docker, Jenkins, amplo uso de bancos de dados e integra&ccedil;&atilde;o com back-end, incluindo suporte a automa&ccedil;&otilde;es e processos internos.
         </p>
 
-       <div class="w-full flex flex-wrap gap-3">
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+        <div class="w-full flex flex-wrap gap-3">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             Angular
-        </span>
+          </span>
 
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             PostgreSQL
-        </span>
+          </span>
 
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             PrimeNG
-        </span>
+          </span>
 
-        <span class="px-4 py-1.5 rounded-full text-sm font-semibold
-            border border-gray-300 text-gray-700 bg-white
-            hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
+          <span class="px-4 py-1.5 rounded-full text-sm font-semibold border border-gray-300 text-gray-700 bg-white hover:border-[#d32f2f] hover:text-[#d32f2f] transition">
             Git
-        </span>
+          </span>
         </div>
       </div>
-    </div> 
+    </div>
   </div>
 
   <section class="w-full opacity-[0] animate-[swing-in-top-fwd_1.2s_cubic-bezier(0.77,0,0.175,1)_forwards_600ms]">
-  <!-- OBJETIVO PROFISSIONAL -->
-  <div class="max-w-7xl mx-auto">
-    <div class="p-7 rounded-2xl border border-gray-200 bg-white flex flex-col gap-3">
-      <h3 class="text-2xl font-bold">🎯 Objetivo profissional</h3>
-      <p class="text-gray-600 leading-relaxed text-lg">
-        Evoluir como desenvolvedor front-end, aprofundando conhecimentos
-        em Angular, arquitetura de aplicações e boas práticas,
-        mantendo uma visão full stack para compreender o sistema como um todo
-        e entregar soluções cada vez mais completas.
-      </p>
+    <!-- OBJETIVO PROFISSIONAL -->
+    <div class="max-w-7xl mx-auto">
+      <div class="p-7 rounded-2xl border border-gray-200 bg-white flex flex-col gap-3">
+        <h3 class="text-xl sm:text-2xl font-bold">Objetivo profissional</h3>
+        <p class="text-gray-600 leading-relaxed text-base sm:text-lg">
+          Evoluir como desenvolvedor front-end, aprofundando conhecimentos
+          em Angular, arquitetura de aplica&ccedil;&otilde;es e boas pr&aacute;ticas,
+          mantendo uma vis&atilde;o full stack para compreender o sistema como um todo
+          e entregar solu&ccedil;&otilde;es cada vez mais completas.
+        </p>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 </section>

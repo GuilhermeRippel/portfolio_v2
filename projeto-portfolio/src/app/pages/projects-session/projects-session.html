@@ -1,16 +1,16 @@
-<section class="relative w-full h-screen px-6 py-10 flex flex-col items-center bg-white">
+<section class="relative w-full min-h-screen px-6 py-10 flex flex-col items-center bg-white">
 
   <div class="w-full flex flex-col gap-1">
-    <h2 class="text-4xl font-bold mb-2 text-black">Meus projetos</h2>
-    <div class="h-1 w-1/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_900ms]"></div>
+    <h2 class="text-3xl sm:text-4xl font-bold mb-2 text-black">Meus projetos</h2>
+    <div class="h-1 w-28 sm:w-1/4 bg-[#d32f2f] rounded-full opacity-[0] animate-[stretch-left-to-right_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards_900ms]"></div>
     <p class="text-gray-600">
       Alguns projetos que desenvolvi ao longo da minha carreira
     </p>
   </div>
 
-  <div class="grid grid-cols-3 gap-6 w-full flex-1 min-h-0 overflow-y-auto p-6">
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 w-full flex-1 min-h-0 overflow-y-auto py-6 sm:p-6">
 
-    <div class="h-[550px] rounded-lg"  *ngFor="let project of projetcs; let i = index" >
+    <div class="min-h-[520px] rounded-lg"  *ngFor="let project of projetcs; let i = index" >
       <project-card class="w-full opacity-0 h-full animate-[fade-up_1.0s_cubic-bezier(0.77,0,0.175,1)_forwards]"
     [style.animation-delay]="(i * 200 + 200) + 'ms'" [configurationProject]="project" />
     </div>

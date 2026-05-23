@@ -2,25 +2,25 @@
   class="w-full h-full bg-white rounded-xl overflow-hidden shadow-lg group flex flex-col justify-around transition-all duration-300 hover:shadow-2xl"
 >
   <!-- imagem -->
-  <div class="relative h-[50%] overflow-hidden border-b border-gray-300 shadow-md">
+  <div class="relative h-64 sm:h-[50%] overflow-hidden border-b border-gray-300 shadow-md">
     <img
       src="{{ configurationProject.imageUrl }}"
       class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
     />
 
     <div
-      class="absolute inset-0 bg-gradient-to-t from-[#d32f2f]/90 to-transparent opacity-0 group-hover:opacity-100 transition flex items-center justify-center gap-4"
+      class="absolute inset-0 bg-gradient-to-t from-[#d32f2f]/90 to-transparent opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition flex items-center justify-center gap-4"
     >
       <button
       (click)="navigateToDemo(configurationProject.demoUrl)"
-        class="border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#d32f2f] transition cursor-pointer"
+        class="border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#d32f2f] transition cursor-pointer bg-[#d32f2f]/50 sm:bg-transparent"
       >
         Demo
       </button>
 
       <button
       (click)="naviateToGitHub(configurationProject.gitHubUrl)"
-        class="border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#d32f2f] transition cursor-pointer"
+        class="border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#d32f2f] transition cursor-pointer bg-[#d32f2f]/50 sm:bg-transparent"
       >
         GitHub
       </button>

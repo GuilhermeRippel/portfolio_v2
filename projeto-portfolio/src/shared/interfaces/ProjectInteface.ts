@@ -3,6 +3,6 @@ export interface ProjectInterface {
     description: string,
     tecnologies: string[],
     imageUrl: string,
-    gitHubUrl: string,
+    gitHubUrl?: string,
     demoUrl: string
 }

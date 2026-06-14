@@ -1,0 +1,20 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#111111"/>
+  <rect x="76" y="72" width="1048" height="616" rx="36" fill="#FFFFFF"/>
+  <rect x="76" y="72" width="1048" height="118" rx="36" fill="#D32F2F"/>
+  <path d="M76 154H1124V190H76V154Z" fill="#D32F2F"/>
+  <circle cx="154" cy="131" r="19" fill="#FFFFFF" fill-opacity="0.95"/>
+  <circle cx="213" cy="131" r="19" fill="#FFFFFF" fill-opacity="0.78"/>
+  <circle cx="272" cy="131" r="19" fill="#FFFFFF" fill-opacity="0.58"/>
+  <rect x="808" y="112" width="216" height="38" rx="19" fill="#FFFFFF" fill-opacity="0.22"/>
+  <rect x="146" y="264" width="392" height="314" rx="22" fill="#111111"/>
+  <path d="M207 524V319H276V524H207Z" fill="#D32F2F"/>
+  <path d="M302 524V280H371V371H479V280H548V524H479V432H371V524H302Z" fill="#FFFFFF"/>
+  <rect x="634" y="274" width="368" height="42" rx="21" fill="#EDEDED"/>
+  <rect x="634" y="350" width="286" height="28" rx="14" fill="#D6D6D6"/>
+  <rect x="634" y="411" width="328" height="28" rx="14" fill="#D6D6D6"/>
+  <rect x="634" y="486" width="190" height="58" rx="12" fill="#D32F2F"/>
+  <rect x="846" y="486" width="156" height="58" rx="12" fill="#111111"/>
+  <text x="148" y="660" fill="#111111" font-family="Inter, Arial, sans-serif" font-size="54" font-weight="800">Hotel Madrid</text>
+  <text x="151" y="708" fill="#666666" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500">Sistema web para hotelaria</text>
+</svg>

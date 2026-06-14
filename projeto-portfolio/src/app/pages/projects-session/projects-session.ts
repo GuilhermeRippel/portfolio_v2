@@ -14,6 +14,13 @@ import { CommonModule } from '@angular/common';
 export class ProjectsSession {
   projetcs: ProjectInterface[] = [
     {
+      title: `Hotel Madrid`,
+      description: `Aplicação frontend para um sistema de hotelaria, com fluxo de login e interface voltada para gerenciamento de hospedagens. O projeto reforça organização visual, responsividade e uma experiência de uso objetiva para operações do dia a dia.`,
+      tecnologies: [`Angular`, `TypeScript`, `TailwindCSS`],
+      demoUrl: `https://hotel-madrid-frontend.vercel.app/login`,
+      imageUrl: `assets/projeto_hotel_madrid.svg`,
+    },
+    {
       title: `Site Hamburgueria (Versão 2)`,
       description: `Landing page moderna para uma hamburgueria fictícia, desenvolvida com Angular 20 e TailwindCSS. O projeto é uma releitura de uma versão antiga criada em React, agora com foco em componentização, animações suaves, responsividade e uma experiência visual mais refinada.`,
       tecnologies: [`Angular20`, `TailwindCSS`],

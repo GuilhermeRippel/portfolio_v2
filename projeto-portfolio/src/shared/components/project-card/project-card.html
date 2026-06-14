@@ -19,7 +19,8 @@
       </button>
 
       <button
-      (click)="naviateToGitHub(configurationProject.gitHubUrl)"
+        *ngIf="configurationProject.gitHubUrl"
+        (click)="naviateToGitHub(configurationProject.gitHubUrl)"
         class="border border-white text-white px-4 py-2 rounded-md hover:bg-white hover:text-[#d32f2f] transition cursor-pointer bg-[#d32f2f]/50 sm:bg-transparent"
       >
         GitHub

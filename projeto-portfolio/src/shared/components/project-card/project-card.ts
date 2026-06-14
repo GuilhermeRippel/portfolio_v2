@@ -16,7 +16,8 @@ export class ProjectCard {
   // @Input() description: string = ''
   // @Input() tecnologies: string[] = []
 
-  naviateToGitHub(url: string){
+  naviateToGitHub(url: string | undefined){
+    if (!url) return
     window.open(url, '_blank')
   }
 

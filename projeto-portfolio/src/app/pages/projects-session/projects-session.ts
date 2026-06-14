@@ -18,6 +18,7 @@ export class ProjectsSession {
       description: `Aplicação frontend para um sistema de hotelaria, com fluxo de login e interface voltada para gerenciamento de hospedagens. O projeto reforça organização visual, responsividade e uma experiência de uso objetiva para operações do dia a dia.`,
       tecnologies: [`Angular21`, `TypeScript`, `TailwindCSS`],
       demoUrl: `https://hotel-madrid-frontend.vercel.app/login`,
+      gitHubUrl: `https://github.com/GuilhermeRippel/hotel_madrid_frontend`,
       imageUrl: `assets/projeto_hotel_madrid.png`,
     },
     {

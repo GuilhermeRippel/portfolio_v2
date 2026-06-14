@@ -16,14 +16,14 @@ export class ProjectsSession {
     {
       title: `Hotel Madrid`,
       description: `Aplicação frontend para um sistema de hotelaria, com fluxo de login e interface voltada para gerenciamento de hospedagens. O projeto reforça organização visual, responsividade e uma experiência de uso objetiva para operações do dia a dia.`,
-      tecnologies: [`Angular`, `TypeScript`, `TailwindCSS`],
+      tecnologies: [`Angular21`, `TypeScript`, `TailwindCSS`],
       demoUrl: `https://hotel-madrid-frontend.vercel.app/login`,
-      imageUrl: `assets/projeto_hotel_madrid.svg`,
+      imageUrl: `assets/projeto_hotel_madrid.png`,
     },
     {
       title: `Site Hamburgueria (Versão 2)`,
       description: `Landing page moderna para uma hamburgueria fictícia, desenvolvida com Angular 20 e TailwindCSS. O projeto é uma releitura de uma versão antiga criada em React, agora com foco em componentização, animações suaves, responsividade e uma experiência visual mais refinada.`,
-      tecnologies: [`Angular20`, `TailwindCSS`],
+      tecnologies: [`Angular20`, `TypeScript`, `TailwindCSS`],
       gitHubUrl: `https://github.com/GuilhermeRippel/hamburgueria_v2`,
       demoUrl: `https://hamburgueria-v2-green.vercel.app`,
       imageUrl: `assets/projeto_hamburgueria_v2.png`,
@@ -31,7 +31,7 @@ export class ProjectsSession {
     {
       title: `Site Hamburgueria`,
       description: `Aplicação frontend desenvolvida em React para uma hamburgueria fictícia, utilizando TailwindCSS para estilização. O projeto conta com navegação entre páginas, layout responsivo e uma interface focada em apresentar produtos de forma moderna e intuitiva.`,
-      tecnologies: [`React`, `TailwindCSS`],
+      tecnologies: [`React`, `TypeScript`, `TailwindCSS`],
       gitHubUrl: `https://github.com/GuilhermeRippel/deploy_site_hamburgueria`,
       demoUrl: `https://hamburguerianoponto.netlify.app`,
       imageUrl: `assets/projeto_hamburgueria.png`,
